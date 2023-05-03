@@ -1,0 +1,148 @@
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+  font-family: 'League Spartan', sans-serif;
+}
+.tittle p{
+  font-size: 19px;
+  color: rgb(102, 110, 117);
+}
+.tittle h5{
+  color: rgb(55, 99, 235);
+  padding: 10px 0;
+}
+.tittle h1{
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.tittle span{
+  background-color: rgb(55, 99, 235);
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: -5px 0px 20px 0;
+}
+
+
+/* Built Company Section start */
+
+.built-company{
+  margin-top: 100px;
+}
+
+.built-company h1{
+  font-size: 45px;
+}
+
+.company-img{
+  opacity: 50%;
+}
+.company-img img{
+  padding: 35px 0px;
+
+}
+.company-img .border{
+  transition: .4s;
+}
+.company-img .border:hover{
+  background-color: rgb(236, 240, 243);
+}
+/* Built Company Section end */
+
+
+/* News & Blog section start */
+.news-bolg{
+  margin-top: 150px;
+}
+.news-bolg .tittle span{
+  margin-left: 47%;
+}
+
+.news-bolg .card img{
+  border-radius: 5px;
+}
+.news-bolg .card{
+  border: none;
+  position: relative;
+}
+
+.news-bolg .card-body{
+  padding: 20px 5px;
+}
+.news-bolg .profile {
+  background-color: rgb(51, 96, 232);
+  border-radius: 30px;
+  padding: 3px 0px;
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  top: 185px;
+  right: 15px;
+}
+.news-bolg .profile img {
+  width: 25px;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
+.news-bolg .profile h6{
+  color: #fff;
+  margin: -17px 0px 0px 39px;
+  font-size: 10px;
+  font-weight: 300;
+}
+.news-bolg .card-text{
+  line-height: 22px;
+  color: rgb(166, 161, 175);
+}
+
+/* News & Blog section end */
+
+
+/* footer section start */
+footer{
+  margin-top: 50px;
+  background-color: rgb(9, 28, 47);
+  height: 500px;
+  padding-top: 100px;
+}
+footer img{
+  width: 150px;
+}
+footer p{
+  color: #ffffffb9;
+  margin-top: 25px;
+  font-size: 19px;
+}
+footer i{
+  color: #ffffffb9;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+
+footer .tittle span {
+  transform: rotate(90deg);
+  width: 30px;
+  display: block;
+  margin: 0px 0px -13px -25px;
+}
+
+footer .tittle h3{
+  display:block;
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .tittle h5{
+  display:block;
+  color: #ffffff9b;
+  font-weight: 300;
+  margin-left: -10px;
+  padding: 3px 0;
+  font-size: 18px;
+}
+.copyright{
+  color: #ffffffbb;
+  margin-top: 33px;
+}
+
+/* footer section end */
